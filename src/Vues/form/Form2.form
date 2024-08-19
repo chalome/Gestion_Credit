@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup2">
+    </Component>
+  </NonVisualComponents>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="adresseTxt" min="-2" pref="246" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="categorieTxt" min="-2" pref="246" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="nomTxt" min="-2" pref="246" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="telTxt" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="prenomTxt" min="-2" pref="246" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="cniTxt" min="-2" pref="246" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="dateTxt" max="32767" attributes="0"/>
+                                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="radioHome" min="-2" max="-2" attributes="0"/>
+                                          <Component id="radiomarie" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="radiononmarie" min="-2" max="-2" attributes="0"/>
+                                          <Component id="radiofemme" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="compteTxt" max="32767" attributes="0"/>
+                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="creerCmd" alignment="0" min="-2" pref="116" max="-2" attributes="0"/>
+                                          <Component id="modifierCmd" alignment="0" min="-2" pref="116" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="supprimerCmd" alignment="1" min="-2" pref="116" max="-2" attributes="0"/>
+                                  <Component id="resetCmd" alignment="1" min="-2" pref="116" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Component id="jLabel1" pref="841" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="creerCmd" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="modifierCmd" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="supprimerCmd" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="resetCmd" min="-2" max="-2" attributes="0"/>
+                          <Component id="dateTxt" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="nomTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="telTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="cniTxt" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                      <Component id="prenomTxt" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="adresseTxt" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
+                                          <Component id="categorieTxt" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="radioHome" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="radiofemme" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="radiomarie" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="radiononmarie" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="compteTxt" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="14" max="32767" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="292" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="sansserif" size="24" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="4f" green="4f" red="4f" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Client"/>
+      </Properties>
+    </Component>
+    <Component class="Vues.swing.TextField" name="nomTxt">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="13" style="0"/>
+        </Property>
+        <Property name="labelText" type="java.lang.String" value="Le nom"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nomTxtActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="Vues.swing.TextField" name="telTxt">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="13" style="0"/>
+        </Property>
+        <Property name="labelText" type="java.lang.String" value="Le num&#xe9;ro de t&#xe9;l&#xe9;phone"/>
+      </Properties>
+    </Component>
+    <Component class="Vues.swing.TextField" name="prenomTxt">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="13" style="0"/>
+        </Property>
+        <Property name="labelText" type="java.lang.String" value="Le pr&#xe9;nom"/>
+      </Properties>
+    </Component>
+    <Component class="Vues.swing.TextField" name="adresseTxt">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="13" style="0"/>
+        </Property>
+        <Property name="labelText" type="java.lang.String" value="L&apos;adresse "/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="adresseTxtActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="Vues.swing.Combobox" name="categorieTxt">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="12" style="0"/>
+        </Property>
+        <Property name="labeText" type="java.lang.String" value="Cat&#xe9;gorie"/>
+      </Properties>
+    </Component>
+    <Component class="Vues.swing.Button" name="creerCmd">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cr&#xe9;er"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="17" style="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="creerCmdActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="Vues.swing.Button" name="modifierCmd">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Modifier"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="17" style="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="modifierCmdActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="Vues.swing.Button" name="supprimerCmd">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Supprimer"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="17" style="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="supprimerCmdActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="Vues.swing.Button" name="resetCmd">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Reset"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="17" style="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="resetCmdActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="Vues.swing.TableDark" name="table">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="4" rowCount="0">
+                <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                <Column editable="true" title="Title 4" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseReleased" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tableMouseReleased"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="Vues.swing.TextField" name="cniTxt">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="13" style="0"/>
+        </Property>
+        <Property name="labelText" type="java.lang.String" value="Le CNI"/>
+      </Properties>
+    </Component>
+    <Component class="com.toedter.calendar.JDateChooser" name="dateTxt">
+      <Properties>
+        <Property name="dateFormatString" type="java.lang.String" value="yyyy-MM-dd"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="14" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="Vues.swing.RadioButtonCustom" name="radioHome">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="buttonGroup1"/>
+        </Property>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="text" type="java.lang.String" value="Homme"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="14" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="Vues.swing.RadioButtonCustom" name="radiofemme">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="buttonGroup1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Femme"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="14" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="Vues.swing.RadioButtonCustom" name="radiomarie">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="buttonGroup2"/>
+        </Property>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="text" type="java.lang.String" value="Mari&#xe9;"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="14" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="Vues.swing.RadioButtonCustom" name="radiononmarie">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="buttonGroup2"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Non mari&#xe9;"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="14" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="Vues.swing.TextField" name="compteTxt">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="13" style="0"/>
+        </Property>
+        <Property name="labelText" type="java.lang.String" value="Le num&#xe9;ro de compte"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
